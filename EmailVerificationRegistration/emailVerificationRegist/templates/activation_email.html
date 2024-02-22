@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activate Your Account</title>
+</head>
+<body>
+    <h2>Activate Your Account</h2>
+    <p>Hello {{ user.username }},</p>
+    <p>Thank you for registering. Please click the link below to activate your account:</p>
+    <a href="http://{{ domain }}/activate/{{ uid }}/{{ token }}">Activate Now</a>
+    <p>If you didn't register on our website, you can safely ignore this email.</p>
+</body>
+</html>
